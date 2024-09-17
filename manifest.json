@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Title Grabber",
+  "version": "1.0",
+  "description": "Grabs the title of the current tab and displays it in the popup",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
